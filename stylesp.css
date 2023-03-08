@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-image: linear-gradient(120deg, #84c1ea 0%, #023805 100%);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h1, form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  form input,
+  form button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    background: white;
+  }
+ 
+  .todoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #orderedList {
+    min-width: 30%;
+    list-style: none;
+  }
+ 
+  #checkboxAndText {
+    display: flex;
+  }
+
+  #checkbox {
+    margin: 0vh 1vh 0vh 1vh;
+  }
